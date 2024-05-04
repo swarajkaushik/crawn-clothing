@@ -8,12 +8,14 @@ import Jackets from "./pages/shop/jackets.component";
 import Mens from "./pages/shop/mens.componenet";
 import Womens from "./pages/shop/womens.componenet";
 import Sneakers from "./pages/shop/sneakers.component";
+import ShopPage from "./pages/shop/shop.component";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/shop" element={<ShopPage />} />
         <Route path="/hats" element={<Hats />} />
         <Route path="/jackets" element={<Jackets />} />
         <Route path="/mens" element={<Mens />} />
