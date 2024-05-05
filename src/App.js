@@ -9,10 +9,12 @@ import Mens from "./pages/shop/mens.componenet";
 import Womens from "./pages/shop/womens.componenet";
 import Sneakers from "./pages/shop/sneakers.component";
 import ShopPage from "./pages/shop/shop.component";
+import Header from "./components/header/header.component";
 
 function App() {
   return (
     <div>
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
@@ -27,5 +29,4 @@ function App() {
 }
 
 export default App;
-
-//78 completed
+//83 completed
