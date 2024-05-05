@@ -10,6 +10,7 @@ import Womens from "./pages/shop/womens.componenet";
 import Sneakers from "./pages/shop/sneakers.component";
 import ShopPage from "./pages/shop/shop.component";
 import Header from "./components/header/header.component";
+import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
+        <Route path="/signin" element={<SignInAndSignUp />} />
         <Route path="/hats" element={<Hats />} />
         <Route path="/jackets" element={<Jackets />} />
         <Route path="/mens" element={<Mens />} />
@@ -29,4 +31,4 @@ function App() {
 }
 
 export default App;
-//83 completed
+//87 completed
